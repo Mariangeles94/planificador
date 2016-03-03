@@ -1,0 +1,175 @@
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: #959595;
+}
+@import url(http://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  padding: 2em 10em;
+  background-image: url(http://lh5.googleusercontent.com/-WS8PXb1VNBM/UyoVSVKkppI/AAAAAAAAA2Q/nVNI3smYtcI/w540-h300-no/kids.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#divEventos{
+    text-align: center;
+    margin: auto;
+}
+h1 {
+  text-align: center;
+  font-size: 275%;
+  
+  font-family: 'Covered By Your Grace', cursive;
+  font-weight: 300;
+  margin-top: -15%;
+  margin-bottom: 5%;
+  text-shadow: 0 2px 1px white;
+}
+
+/* Table 1 Style */
+table.table1{
+    margin: auto;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.4em;
+    font-style: normal;
+    border-collapse:separate;
+}
+.table1 thead th{
+    padding:15px;
+    color:#fff;
+    text-shadow:1px 1px 1px #568F23;
+    border:1px solid #93CE37;
+    border-bottom:3px solid #9ED929;
+    background-color:#9DD929;
+    background:-webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.02, rgb(123,192,67)),
+        color-stop(0.51, rgb(139,198,66)),
+        color-stop(0.87, rgb(158,217,41))
+        );
+    background: -moz-linear-gradient(
+        center bottom,
+        rgb(123,192,67) 2%,
+        rgb(139,198,66) 51%,
+        rgb(158,217,41) 87%
+        );
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -moz-border-radius:5px 5px 0px 0px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+.table1 thead th:empty{
+    background:transparent;
+    border:none;
+}
+.table1 tbody th{
+    color:#fff;
+    text-shadow:1px 1px 1px #568F23;
+    background-color:#9DD929;
+    border:1px solid #93CE37;
+    border-right:3px solid #9ED929;
+    padding:0px 10px;
+    background:-webkit-gradient(
+        linear,
+        left bottom,
+        right top,
+        color-stop(0.02, rgb(158,217,41)),
+        color-stop(0.51, rgb(139,198,66)),
+        color-stop(0.87, rgb(123,192,67))
+        );
+    background: -moz-linear-gradient(
+        left bottom,
+        rgb(158,217,41) 2%,
+        rgb(139,198,66) 51%,
+        rgb(123,192,67) 87%
+        );
+    -moz-border-radius:5px 0px 0px 5px;
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-bottom-left-radius:5px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+}
+.table1 tfoot td{
+    color: #9CD009;
+    font-size:32px;
+    text-align:center;
+    padding:10px 0px;
+    text-shadow:1px 1px 1px #444;
+}
+.table1 tfoot th{
+    color:#666;
+}
+.table1 tbody td{
+    padding:10px;
+    text-align:center;
+    background-color:#DEF3CA;
+    border: 2px solid #E7EFE0;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border-radius:2px;
+    color:#666;
+    text-shadow:1px 1px 1px #fff;
+}
+.table1 tbody span.check::before{
+    content : url(../images/check0.png)
+}
+#nav{
+    background-color: #428BCA;
+}
+
+#center {
+  vertical-align: middle;
+  display: inline-block;
+  white-space: normal;
+}
+#box{
+    width: 80%;
+    margin: auto;
+}
+
+#credits {
+  text-align: right;
+  color: white;
+}
+#credits a {
+  color: #16a085;
+  text-decoration: none;
+}
+#credits a:hover {
+  text-decoration: underline;
+}
+
+#mensajeError{
+    width: 100%;
+    padding-top: 5%;
+    font-size: 2em;
+    text-align: center;
+    color: red;
+    margin: auto;
+}
+.ocultar{
+    display:none;
+}
